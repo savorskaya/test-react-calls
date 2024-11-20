@@ -1,0 +1,24 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 0 8px;
+  cursor: pointer;
+}
+
+.row:hover div svg {
+  fill: var(--line-icon-hover);
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.arrow {
+  transform: rotate(0deg);
+}
+
+.arrowDown {
+  transform: rotate(180deg);
+}

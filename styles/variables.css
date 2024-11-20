@@ -1,0 +1,5 @@
+:root {
+  --color-accent: #002cfb;
+  --line-icon-default: #adbfdf;
+  --line-icon-hover: var(--color-accent);
+}

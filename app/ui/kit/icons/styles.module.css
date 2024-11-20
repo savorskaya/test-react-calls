@@ -1,0 +1,12 @@
+.iconWrapper {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.iconWrapper svg {
+  fill: var(--line-icon-default);
+}
+
+.iconWrapper:hover svg {
+  fill: var(--line-icon-hover);
+}

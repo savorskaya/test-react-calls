@@ -1,0 +1,68 @@
+.columnTable {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 20px;
+  min-width: 1200px;
+  width: 1440px;
+  gap: 16px;
+}
+
+.sortingRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tableContainer {
+  border-radius: 8px;
+  box-shadow: 0 4px 5px 0 #e9edf3;
+  background: #fff;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table thead td:not(:first-child) {
+  border-bottom: 1px solid #eaf0fa;
+}
+
+.table td {
+  height: 65px;
+}
+
+.table td:nth-child(6) {
+  padding-right: 16px;
+}
+
+.table tr td:last-child {
+  padding-right: 24px;
+}
+
+.table tbody tr:last-child td {
+  height: 85px;
+  padding-bottom: 24px;
+}
+
+.table tr:not(:last-child) td:not(:first-child) {
+  border-bottom: 1px solid #eaf0fa;
+}
+
+.loaderWrapper {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyRow {
+  padding: 220px 0;
+}
+
+.centerCashFlow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

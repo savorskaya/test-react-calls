@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent);
+  gap: 4px;
+  cursor: pointer;
+}
+
+.arrowRight {
+  margin-left: 5px;
+  transform: rotate(90deg);
+}
+
+.arrowLeft {
+  margin-right: 5px;
+  transform: rotate(-90deg);
+}
+
+.iconCalendar {
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+.wrapper:hover .iconCalendar svg,
+.wrapperOpen .iconCalendar svg {
+  fill: var(--line-icon-hover) !important;
+}
+
+.popover {
+  border-radius: 4px;
+  width: 204px;
+  height: 239px;
+  right: 0;
+  z-index: 100;
+  justify-content: center !important;
+}
+
+.popover > div {
+  min-height: 40px;
+  height: 40px;
+}
+
+.disabled {
+  color: #899cb1;
+}
+
+.disabled:hover {
+  background: none !important;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start !important;
+  justify-content: center;
+  gap: 10px;
+  height: 70px !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.active {
+  color: var(--color-accent) !important;
+}

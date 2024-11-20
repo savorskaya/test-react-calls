@@ -1,0 +1,43 @@
+{
+  "name": "test-calls",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "npm run lint:fix && prettier --write '**/*.{ts,tsx,js,json,html,css,scss,md}'",
+    "format:check": "prettier --check '**/*.{ts,tsx,js,json,html,css,scss,md}'"
+  },
+  "dependencies": {
+    "@coxy/utils": "^1.0.20",
+    "@reduxjs/toolkit": "^2.2.7",
+    "axios": "^1.6.5",
+    "classnames": "^2.5.1",
+    "next": "^14.2.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.1.2",
+    "sass": "^1.70.0",
+    "date-fns": "2.29.3",
+    "@coxy/react-click-outside": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.4.33",
+    "postcss-import": "^15.1.0",
+    "prettier": "^3.2.4",
+    "@types/date-fns": "2.6.0",
+    "typescript": "^5.3.3"
+  }
+}

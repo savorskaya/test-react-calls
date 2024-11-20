@@ -1,0 +1,34 @@
+@import 'variables.css';
+
+:root {
+  @apply h-full;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body {
+  height: 100vh;
+  overflow: auto;
+  font-family: -apple-system, system-ui, Helvetica, Arial;
+  font-size: 15px;
+  margin: 0;
+  background: #f1f4f9;
+  @apply h-full;
+}
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}

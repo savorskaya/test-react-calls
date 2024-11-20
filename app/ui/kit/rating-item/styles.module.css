@@ -1,0 +1,37 @@
+.wrapper {
+  height: 26px;
+  width: fit-content;
+  padding: 0 8px;
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+}
+
+.good {
+  background-color: #d8e4fb;
+  border-color: #adbfdf;
+  color: #122945;
+}
+
+.bad {
+  background-color: #fee9ef;
+  border-color: #ea1a4f;
+  color: #ea1a4f;
+}
+
+.great {
+  background-color: #dbf8ef;
+  border-color: #28a879;
+  color: #00a775;
+}
+
+.noneScript {
+  border-style: none;
+  color: #ea1a4f;
+  padding: 0;
+}

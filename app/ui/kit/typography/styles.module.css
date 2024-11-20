@@ -1,0 +1,21 @@
+.text {
+  color: #122945;
+  font-weight: 400;
+}
+
+.tableHead {
+  color: #5e7793;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tableRow {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.tableRowSecondary {
+  font-size: 15px;
+  line-height: 21px;
+  color: #5e7793;
+}

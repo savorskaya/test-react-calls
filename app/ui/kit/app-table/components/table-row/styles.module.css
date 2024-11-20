@@ -1,0 +1,4 @@
+.tableRow:hover td {
+  cursor: pointer;
+  background: #f9fafd;
+}

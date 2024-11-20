@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5e7793;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+
+.wrapper:hover,
+.wrapperOpen {
+  color: #122945;
+}
+
+.wrapper:hover .arrow svg,
+.wrapperOpen .arrow svg {
+  fill: var(--line-icon-hover) !important;
+}
+
+.wrapperOpen .arrow {
+  transform: rotate(0deg);
+}
+
+.active {
+  color: var(--color-accent) !important;
+}
